@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+}
+nav {
+    background-color: brown;
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+nav a {
+    color: #fff;
+    font-size: 18px;
+    margin-left: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+#slider-part {
+    background-color: #333638;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+
+}
+
+#title-slider{
+    font-size: 70px;
+    color: white;
+}
+
+#title-des{
+    font-size: 40px ;
+    text-align: center;
+    color: orangered;
+}
+
+hr{
+    width: 500px;
+}
+
+.project-title{
+    color: white;
+    font-size: 30px;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    
+}
+
+#project-part{
+    background-color: #45567D ;
+    padding: 40px;
+    
+}
+
+#project-1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+
+}
+
+.images-style{
+    width: 400px;
+    height: 350px ;
+}
+button {
+    background-color: #040f2a;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    
+
+
+}
+.project-item{
+    background-color: #040f2a;
+    width: 400px;
+    height: 450px;
+    margin-left: 40px;
+}
+
+.image-caption{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.share{
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+    
+
+}
+
+.share a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+footer{
+    background-color: #040f2a ;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    gap: 100px;
+    color: white;
+
+}
